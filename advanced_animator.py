@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 from mathutils import Euler, Vector, Quaternion
 
-
+ 
 class AdvancedSpinalBypassAnimator:
     """
     Professional Blender animator for spinal bypass system
