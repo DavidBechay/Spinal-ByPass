@@ -1,7 +1,7 @@
 """
 ADVANCED FEATURE EXTRACTION
 Comprehensive feature set for movement intent decoding
-
+ 
 Feature Categories:
 1. TMR Features (24)
    - Raw values
