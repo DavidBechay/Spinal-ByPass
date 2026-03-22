@@ -1,8 +1,4 @@
 """
-NEWEST DATA LOADER - 2023/2024 DATASETS
-Supports the latest publicly available leg EMG datasets
-
-Supported:
 1. IEEE DataPort 2023 (RECOMMENDED - Newest)
 2. Zenodo 2022
 3. PhysioNet EMG Gait
