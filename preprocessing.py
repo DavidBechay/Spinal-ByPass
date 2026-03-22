@@ -8,7 +8,7 @@ Features:
 - Wavelet denoising
 - Feature scaling
 - Data augmentation
-"""
+""" 
 
 import numpy as np
 from typing import Dict, Tuple, Optional
