@@ -4,7 +4,7 @@ Complete end-to-end system integration
 Workflow:
 1. Load real EMG data
 2. Preprocess to spinal bypass format
-3. Extract features
+3. Extract features 
 4. Train ML model
 5. Generate predictions
 6. Analyze performance
