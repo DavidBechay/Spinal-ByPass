@@ -6,7 +6,7 @@ Models:
 4. Ensemble (voting classifier)
 
 Features:
-- Hyperparameter optimization
+- Hyperparameter optimization 
 - Cross-validation
 - Feature importance analysis
 - Model persistence
