@@ -1,9 +1,5 @@
 """
-CORRUPT MEILoD DATASET
 Add realistic noise to full MEILoD dataset for robustness testing
-
-Usage:
-python corrupt_meilod.py
 
 Outputs:
 - corrupted_meilod_full.csv (500k+ samples with noise)
