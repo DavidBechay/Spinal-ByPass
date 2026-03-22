@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import numpy as np
 
-try:
+try: 
     from scipy.ndimage import uniform_filter1d
 
     SCIPY_OK = True
