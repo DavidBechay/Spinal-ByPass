@@ -1,7 +1,4 @@
 """
-ADVANCED ML MODELS
-Multiple classifier architectures with ensemble learning
-
 Models:
 1. Random Forest (baseline)
 2. XGBoost (gradient boosting)
