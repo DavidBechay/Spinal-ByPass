@@ -1,27 +1,3 @@
-"""
-ADVANCED BLENDER ANIMATOR
-Production-grade human body animation for spinal bypass visualization
-
-Features:
-- Realistic human character animation
-- Smooth joint motion with physics
-- JSON data loading
-- Real-time metrics display
-- Camera automation
-- Rendering pipeline
-
-Installation:
-1. Install Blender 3.6+ (https://www.blender.org)
-2. Open Blender → Scripting tab
-3. Load this script
-4. Run (Alt+P)
-
-Requirements:
-- Blender 3.6 or newer
-- Human character with Humanoid rig (Mixamo recommended)
-- session_data.json from Python pipeline
-"""
-
 import bpy
 import json
 import math
