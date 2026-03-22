@@ -1,5 +1,4 @@
 """
-ADVANCED SIGNAL PREPROCESSING
 Converts real EMG to spinal bypass sensor format with signal processing
 
 Features:
