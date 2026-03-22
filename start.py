@@ -12,7 +12,7 @@ print("""
 ║                    QUICK START - NO DOWNLOAD                         ║
 ║                                                                      ║
 ║         Synthetic Gait EMG → Complete Pipeline → Blender             ║
-║                                                                      ║
+║                                                                      ║ 
 ╚══════════════════════════════════════════════════════════════════════╝
 """)
 
