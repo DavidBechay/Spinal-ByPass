@@ -2,7 +2,7 @@
 Multimodal EMG-IMU Locomotion Dataset
 
 Perfect for Spinal Bypass System because:
-- 8 EMG channels (4 muscles × 2 legs)
+- 8 EMG channels (4 muscles × 2 legs) 
 - 6-axis IMU (matches our joint angle needs)
 - Locomotor activities (walking, jogging, stairs)
 - Recent, research-grade data
