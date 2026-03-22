@@ -1,0 +1,59 @@
+
+SPINAL BYPASS SYSTEM - COMPREHENSIVE PERFORMANCE REPORT
+======================================================================
+Generated: 2026-03-22 08:03:56
+
+SESSION INFORMATION
+----------------------------------------------------------------------
+Total Samples:          25,000
+Duration:               500.0 seconds
+Sample Rate:            50 Hz
+
+ACCURACY METRICS
+----------------------------------------------------------------------
+Overall Accuracy:       96.34%
+Precision (macro):      96.38%
+Recall (macro):         96.34%
+F1 Score (macro):       96.35%
+
+CONFIDENCE METRICS
+----------------------------------------------------------------------
+Mean Confidence:        95.50%
+Std Confidence:         10.94%
+Min Confidence:         27.52%
+Max Confidence:         100.00%
+
+LATENCY METRICS
+----------------------------------------------------------------------
+Mean Latency:           19.7 ms
+Std Latency:            9.6 ms
+Min Latency:            5.0 ms
+Max Latency:            74.9 ms
+50th Percentile:        18.8 ms
+95th Percentile:        37.1 ms
+99th Percentile:        46.1 ms
+
+TARGET COMPLIANCE
+----------------------------------------------------------------------
+Accuracy ≥85%:          ✓ PASS
+Latency <80ms (mean):   ✓ PASS
+Latency <120ms (P99):   ✓ PASS
+
+TMR SENSOR QUALITY
+----------------------------------------------------------------------
+TMR SNR (est):         1.00 (FAIL)
+TMR SNR linear (eff.): 1.00  (policy window)
+TMR Crosstalk rate:    0.004
+L/R imbalance:         0.1191
+
+GENERATED FIGURES
+----------------------------------------------------------------------
+  • performance_over_time.png
+  • confusion_matrix.png
+  • latency_analysis.png
+  • tmr_heatmap.png
+  • joint_trajectories.png
+  • movement_distribution.png
+  • error_analysis.png
+
+======================================================================

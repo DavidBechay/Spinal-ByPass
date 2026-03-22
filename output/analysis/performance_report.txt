@@ -1,0 +1,69 @@
+
+SPINAL BYPASS SYSTEM - COMPREHENSIVE PERFORMANCE REPORT
+======================================================================
+Generated: 2026-03-22 07:44:02
+
+SESSION INFORMATION
+----------------------------------------------------------------------
+Total Samples:          400
+Duration:               8.0 seconds
+Sample Rate:            50 Hz
+
+ACCURACY METRICS
+----------------------------------------------------------------------
+Overall Accuracy:       96.50%
+Precision (macro):      96.70%
+Recall (macro):         96.34%
+F1 Score (macro):       96.48%
+
+CONFIDENCE METRICS
+----------------------------------------------------------------------
+Mean Confidence:        72.93%
+Std Confidence:         15.53%
+Min Confidence:         24.54%
+Max Confidence:         99.65%
+
+LATENCY METRICS
+----------------------------------------------------------------------
+Mean Latency:           9.0 ms
+Std Latency:            6.0 ms
+Min Latency:            5.0 ms
+Max Latency:            35.9 ms
+50th Percentile:        5.2 ms
+95th Percentile:        22.0 ms
+99th Percentile:        27.7 ms
+
+TARGET COMPLIANCE
+----------------------------------------------------------------------
+Accuracy ≥85%:          ✓ PASS
+Latency <80ms (mean):   ✓ PASS
+Latency <120ms (P99):   ✓ PASS
+
+TMR SENSOR QUALITY
+----------------------------------------------------------------------
+TMR SNR (est):         3.66 (FAIL)
+TMR SNR linear (eff.): 7.42  (policy window)
+TMR Crosstalk rate:    0.013
+L/R imbalance:         0.1511
+
+POLICY (confidence + TMR SNR gating)
+----------------------------------------------------------------------
+Abstention rate:       81.75%
+Accuracy (committed):  97.26%
+Mean TMR SNR (lin.):   7.42
+Pass mean latency:     True
+Pass P99 latency:      True
+Pass TMR SNR:          False
+Pass acc. (committed): True
+
+GENERATED FIGURES
+----------------------------------------------------------------------
+  • performance_over_time.png
+  • confusion_matrix.png
+  • latency_analysis.png
+  • tmr_heatmap.png
+  • joint_trajectories.png
+  • movement_distribution.png
+  • error_analysis.png
+
+======================================================================

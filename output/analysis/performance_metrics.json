@@ -1,0 +1,105 @@
+{
+  "num_samples": 400,
+  "accuracy": 0.965,
+  "precision_per_class": [
+    0.9743589743589743,
+    0.896551724137931,
+    0.9829059829059829,
+    1.0,
+    0.9813084112149533
+  ],
+  "recall_per_class": [
+    0.95,
+    0.975,
+    0.9583333333333334,
+    0.9615384615384616,
+    0.9722222222222222
+  ],
+  "f1_per_class": [
+    0.9620253164556962,
+    0.9341317365269461,
+    0.9704641350210971,
+    0.9803921568627451,
+    0.9767441860465116
+  ],
+  "support_per_class": [
+    40,
+    80,
+    120,
+    52,
+    108
+  ],
+  "precision_macro": 0.9670250185235684,
+  "recall_macro": 0.9634188034188034,
+  "f1_macro": 0.9647515061825992,
+  "mean_confidence": 0.7293008790963288,
+  "std_confidence": 0.1552513241568042,
+  "min_confidence": 0.2454371734491555,
+  "max_confidence": 0.9965001243054695,
+  "mean_latency_ms": 8.98815825115315,
+  "std_latency_ms": 5.976747307391091,
+  "min_latency_ms": 5.0,
+  "max_latency_ms": 35.88694213967769,
+  "p50_latency_ms": 5.18203520053099,
+  "p95_latency_ms": 22.011432551752744,
+  "p99_latency_ms": 27.721181152171287,
+  "confusion_matrix": [
+    [
+      38,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      78,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      115,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      50,
+      1
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      105
+    ]
+  ],
+  "error_rate": 0.03500000000000003,
+  "tmr_snr": 3.6586017234501007,
+  "tmr_crosstalk_rate": 0.012531328320802004,
+  "tmr_left_right_balance": 0.15106046786927024,
+  "policy": {
+    "abstention_rate": 0.8175,
+    "mean_tmr_snr_linear": 7.421106554681695,
+    "min_tmr_snr_linear": 0.9274223599942759,
+    "mean_latency_ms": 8.98815825115315,
+    "p99_latency_ms": 27.721181152171287,
+    "target_mean_latency_ms": 80.0,
+    "target_p99_latency_ms": 120.0,
+    "target_accuracy": 0.85,
+    "target_tmr_snr_linear": 10.0,
+    "pass_mean_latency": true,
+    "pass_p99_latency": true,
+    "pass_tmr_snr": false,
+    "accuracy_on_committed": 0.9726027397260274,
+    "pass_accuracy_committed": true,
+    "accuracy_raw": 0.965
+  },
+  "tmr_snr_linear_effective": 7.421106554681695
+}
