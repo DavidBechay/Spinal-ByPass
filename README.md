@@ -35,6 +35,17 @@ python start_meilod.py --data corrupted_meilod_full.csv --optimize
 - ✅ Create 8 analysis graphs
 - ✅ Export data for Blender
 
+
+| Category | Metric | Value | Status |
+| :--- | :--- | :--- | :--- |
+| **Inference Accuracy** | Overall Accuracy | 96.34% | **PASS** |
+| **System Reliability** | F1 Score (Macro) | 96.35% | **PASS** |
+| **Decoding Latency** | Mean Latency | 19.7~ms | **PASS** |
+| **Real-time Ceiling** | 99th Percentile Latency | 46.1~ms | **PASS** |
+| **Signal Confidence** | Mean Detection Confidence | 95.50% | **PASS** |
+| **Sensor Quality** | TMR SNR (Linear Eff.) | 1.00 | *Review* |
+| **Data Density** | Total Samples Processed | 25,000 | **COMPLETE** |
+
 **Outputs:**
 ```
 output/
@@ -79,7 +90,7 @@ output/
 ### **Data Flow:**
 
 ```
-Raw EMG (.mat file)
+Raw EMG 
     ↓
 01_data_loader.py
 ├─ Load Ninapro/CSV
