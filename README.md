@@ -6,23 +6,23 @@ pip install numpy scipy scikit-learn matplotlib seaborn xgboost
 
 **Option A - Synthetic Data (NO DOWNLOAD):**
 ```bash
-python 00_quick_start.py
+python start.py
 ```
 
 **Option B - Real Data:**
 ```bash
 
 -------------------------------------------------------------------
-python 00_quick_start_meilod.py --data MEILoD_v1.1_merged.csv
+python start_meilod.py --data MEILoD_v1.1_merged.csv
 -------------------------------------------------------------------
 # FAST (recommended) - ~5 minutes
-python 00_quick_start_meilod.py --data corrupted_meilod_full.csv
+python start_meilod.py --data corrupted_meilod_full.csv
 
 # Quick testing - ~1 minute  
-python 00_quick_start_meilod.py --data corrupted_meilod_full.csv --samples 50000
+python start_meilod.py --data corrupted_meilod_full.csv --samples 50000
 
 # Full optimization (if you have time) - 1+ hour
-python 00_quick_start_meilod.py --data corrupted_meilod_full.csv --optimize
+python start_meilod.py --data corrupted_meilod_full.csv --optimize
 
 ```
 
