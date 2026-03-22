@@ -11,7 +11,7 @@ from pathlib import Path
 import sys
 
 # Add project path
-sys.path.insert(0, str(Path(__file__).parent))
+sys.path.insert(0, str(Path(__file__).parent)) 
 
 def _inject_label_noise(labels, flip_frac):
     """Flip fraction of labels randomly"""
