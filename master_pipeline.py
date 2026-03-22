@@ -1,5 +1,4 @@
 """
-MASTER PIPELINE
 Complete end-to-end system integration
 
 Workflow:
@@ -10,9 +9,6 @@ Workflow:
 5. Generate predictions
 6. Analyze performance
 7. Export for Blender
-
-Usage:
-    python master_pipeline.py --data S1_E1_A1.mat --model ensemble --blender
 """
 
 import argparse
