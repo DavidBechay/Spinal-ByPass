@@ -1,5 +1,4 @@
 """
-MEILoD DATASET LOADER
 Multimodal EMG-IMU Locomotion Dataset
 
 Perfect for Spinal Bypass System because:
@@ -7,8 +6,6 @@ Perfect for Spinal Bypass System because:
 - 6-axis IMU (matches our joint angle needs)
 - Locomotor activities (walking, jogging, stairs)
 - Recent, research-grade data
-
-Download: https://data.mendeley.com/datasets/ydz48cby4t/1
 
 Citation:
 MEILoD: Multimodal EMG-IMU Locomotion Dataset for Human Activity Recognition
