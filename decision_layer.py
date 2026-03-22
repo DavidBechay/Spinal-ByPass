@@ -6,7 +6,7 @@ Implements a practical slice of the "ultimate" architecture:
 - Report accuracy on committed decisions vs raw accuracy
 - Check mean latency, P99 latency, and SNR against deployment targets
 """
-
+ 
 from __future__ import annotations
 
 from dataclasses import dataclass, field
