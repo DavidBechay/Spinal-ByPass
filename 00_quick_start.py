@@ -1,14 +1,4 @@
-"""
-QUICK START - NO DOWNLOAD NEEDED
-Generates realistic synthetic gait EMG and runs complete pipeline
-
-Run this IMMEDIATELY to test the system:
-    python 00_quick_start.py
-
-No data download needed!
-Generates physiologically accurate leg EMG based on published research.
-"""
-import numpy as np  # Import for latencies array
+import numpy as np 
 
 import sys
 from pathlib import Path
