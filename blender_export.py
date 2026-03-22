@@ -1,7 +1,4 @@
 """
-BLENDER DATA EXPORT
-Export simulation data in Blender-compatible format
-
 Outputs:
 - session_data.json - Complete session for playback
 - frame_by_frame/ - Individual frame files
