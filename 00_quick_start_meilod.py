@@ -1,13 +1,6 @@
 """
-QUICK START - MEILoD DATASET
-Run complete pipeline with MEILoD data
-
-Download MEILoD first:
+ MEILoD :
 https://data.mendeley.com/datasets/ydz48cby4t/1
-
-Recommended (clean labels, temporal context, HistGradientBoosting, ≥85%% held-out target):
-  python 00_quick_start_meilod.py --data MEILoD_v1.1_merged.csv \\
-    --benchmark-accuracy --temporal --quick --model hgb --skip-blender
 
 Legacy noisy robustness run (lower headline accuracy):
   python 00_quick_start_meilod.py --data MEILoD_v1.1_merged.csv
