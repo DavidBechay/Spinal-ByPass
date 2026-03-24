@@ -132,4 +132,11 @@ Realistic Human Animation
 
 
 ![](output/analysis_meilod/confusion_matrix.png)
+![](output/analysis_meilod/error_analysis.png)
+![](output/analysis_meilod/feature_importance.png)
+![](output/analysis_meilod/joint_trajectories.png)
+![](output/analysis_meilod/latency_analysis.png)
+![](output/analysis_meilod/movement_distribution.png)
+![](output/analysis_meilod/performance_over_time.png)
+![](output/analysis_meilod/tmr_heatmap.png)
 
